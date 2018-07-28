@@ -1,0 +1,33 @@
+module transmitEnable(en, transEnable, clk_9600, charSent, clk, reset);
+	output reg en;
+	input transEnable, clk_9600, charSent, clk, reset;
+	wire [1:0] PS, PSBar;
+	reg [1:0] NS;
+	
+	always @(PS or transEnable or clk_9600 or charSent)
+		begin
+			if (PS == 2'b00) 				//Idle 
+				begin
+				 if (transEnable & clk_9600) NS = 2'b01;
+				 else NS = 2'b00;
+				 en = 0;
+				end
+			else if (PS == 2'b01)		//En
+				begin
+					if (charSent) NS = 2'b10;
+					else NS = 2'b01;
+					en = 1;
+				end
+			else 								//Empty
+				begin
+					if (transEnable == 0) NS = 2'b00;
+					else NS = 2'b10;
+					en = 0;
+				end
+		end
+		
+	// Stateholding 
+	DFlipFlop b0 (.q(PS[0]), .qBar(PSBar[0]), .D(NS[0]), .rst(reset), .clk(clk)); 
+	DFlipFlop b1 (.q(PS[1]), .qBar(PSBar[1]), .D(NS[1]), .rst(reset), .clk(clk)); 
+
+endmodule 

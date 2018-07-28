@@ -1,0 +1,42 @@
+module transmit(dataIn, transEnable, clk, rst, dataOut, charSent);
+	input transEnable, clk, rst;
+	input [7:0] dataIn;
+	output dataOut, charSent;
+	wire load;
+	wire [3:0] bscCount, bicCount;
+	wire en, SRclk, clk9600x16, clk9600, bicClk;
+	
+	clkCounter cc1(clk, rst, clk9600x16);
+	clkCounter2 cc2(clk9600x16, rst, clk9600);
+	
+	PISO sr1 (dataIn, load, SRclk, rst, dataOut);
+	BSC myBSC(transEnable, rst, clk9600x16, bscCount);
+	BIC myBIC(transEnable, rst, bicClk, bicCount);
+	
+	assign bicClk = bscCount[0] & bscCount[3] & bscCount[2] & bscCount[1];
+	assign load = ~bicCount[3] & ~bicCount[2] & ~bicCount[1] & ~bicCount[0] & transEnable;
+	assign SRclk = ~bscCount[3] & ~bscCount[2] & ~bscCount[1] & ~bscCount[0] & transEnable;
+	assign charSent = bicCount[3] & ~bicCount[2] & bicCount[1] & ~bicCount[0] & ~bscCount[3];
+endmodule 
+
+module ttb();
+	reg [7:0]dataIn;
+	reg clk, rst, transEnable;
+	wire dataOut;
+	wire charSent;
+	
+	parameter period = 100;
+	
+	initial clk = 0;
+	always #(period /2) clk = ~ clk;
+	
+	transmit trass(dataIn, transEnable, clk, rst, dataOut, charSent);
+	
+	initial begin
+		rst = 1; transEnable = 0; dataIn = 8'b0;
+		#(period*160) rst = 0; dataIn = 8'b11111111; transEnable = 1;
+		#(period*160*12) transEnable = 0;
+		#(period*160*15)
+		$stop();
+	end
+endmodule 

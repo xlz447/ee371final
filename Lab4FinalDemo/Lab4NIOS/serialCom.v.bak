@@ -1,0 +1,38 @@
+module serialCom (dataToSent, transEnable, clk, rst, dataToMem, charRecived, charSent);
+	input transEnable, clk, rst;
+	input [7:0] dataToSent;
+	output charRecived, charSent;
+	output [7:0] dataToMem;
+	
+	wire [7:0] dataOut;
+	
+	
+	
+	receive rcv (dataOut, clk, rst, dataToMem, charRecived);
+	transmit tsmt (dataToSent, transEnable, clk, rst, dataOut, charSent);
+	
+	
+endmodule 
+
+module stb();
+	reg [7:0]dataToSent;
+	reg clk, rst, transEnable;
+	
+	wire [7:0] dataToMem;
+	wire charRecived, charSent;
+	
+	parameter period = 100;
+	
+	initial clk = 0;
+	always #(period /2) clk = ~ clk;
+	
+	serialCom src(dataToSent, transEnable, clk, rst, dataToMem, charRecived, charSent);
+	
+	initial begin
+		rst = 1; transEnable = 0; dataIn = 8'b0;
+		#(period*160) rst = 0; dataIn = 8'b11111111; transEnable = 1;
+		#(period*160*12) transEnable = 0;
+		#(period*160*15)
+		$stop();
+	end
+endmodule 

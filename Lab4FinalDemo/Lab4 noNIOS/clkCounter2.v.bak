@@ -1,0 +1,33 @@
+module clkCounter2(clk, rst, out);
+	input clk, rst;
+	output out;
+	wire [3:0] nc, c;
+	
+	DFlipFlop dff0(c[0], nc[0], nc[0], clk, rst);
+	DFlipFlop dff1(c[1], nc[1], nc[1], nc[0], rst);
+	DFlipFlop dff2(c[2], nc[2], nc[2], nc[1], rst);
+	DFlipFlop dff3(c[3], nc[3], nc[3], nc[2], rst);
+
+	assign out = ~c[3];
+
+endmodule 
+
+//module tb();
+//	reg clk, rst;
+//	wire out;
+//	
+//	parameter period = 100;
+//	
+//	initial clk = 0;
+//	always #(period /2) clk = ~ clk;
+//	
+//	clkCounter2 cc (clk, rst, out);
+//	
+//	initial begin
+//		rst = 1;
+//		#(period) rst = 0;
+//		#(35*period);
+//		$stop();
+//	end
+//	
+//endmodule 

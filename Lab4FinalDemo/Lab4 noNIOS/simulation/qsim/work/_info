@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\x5277219\Desktop\Lab4\simulation\qsim
+vclkCounter
+Z1 IGJDG1RBNTMf=dz36DXKVX0
+Z2 VhVg7mSKSb6VSNlWXYzI;i0
+Z3 dC:\Users\x5277219\Desktop\Lab4\simulation\qsim
+Z4 w1425424093
+Z5 8DE1_SoC.vo
+Z6 FDE1_SoC.vo
+L0 32
+Z7 OV;L;10.1e;51
+r1
+31
+Z8 !s90 -work|work|DE1_SoC.vo|
+Z9 o-work work -O0
+Z10 nclk@counter
+Z11 !s100 zJ?3dl7QhfROCZI?eQznV3
+Z12 !s108 1425424093.961000
+Z13 !s107 DE1_SoC.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vclkCounter2
+Z14 !s100 6jJ8GcVX<d012I>QdH>Ek0
+Z15 IRD]e^QQ3U281=`e0244Qk2
+Z16 VJDAgTF1S8ZjbBSLKHLCY00
+R3
+Z17 w1425426877
+R5
+R6
+L0 32
+R7
+r1
+31
+R8
+R9
+Z18 nclk@counter2
+!i10b 1
+!s85 0
+Z19 !s108 1425426877.941000
+R13
+!s101 -O0
+vclkCounter2_vlg_check_tst
+!i10b 1
+Z20 !s100 5WIV_EoAVAVV7Gb7z17YC0
+Z21 Ie@QZ1=91gVZ>EUA]:@d;B1
+Z22 VIH6keeXM7CFFldHLbDbUe2
+R3
+Z23 w1425426875
+Z24 8c.vwf.vt
+Z25 Fc.vwf.vt
+L0 60
+R7
+r1
+!s85 0
+31
+Z26 !s108 1425426878.002000
+Z27 !s107 c.vwf.vt|
+Z28 !s90 -work|work|c.vwf.vt|
+!s101 -O0
+R9
+Z29 nclk@counter2_vlg_check_tst
+vclkCounter2_vlg_sample_tst
+!i10b 1
+Z30 !s100 JjhHMNVeBgRGIS;fziLDP3
+Z31 IWK]LbjL]AM43^1UF;M8EP3
+Z32 Vif5k>6UhJHDFR@HA]@cYn3
+R3
+R23
+R24
+R25
+L0 30
+R7
+r1
+!s85 0
+31
+R26
+R27
+R28
+!s101 -O0
+R9
+Z33 nclk@counter2_vlg_sample_tst
+vclkCounter2_vlg_vec_tst
+!i10b 1
+!s100 KZLIJ`<fCn>Og2;9`nnoi1
+I`]W9H?o>@7RAIo`ohMEQo3
+Z34 ViN2KQXVzM8:5F`1S_gBeB1
+R3
+R23
+R24
+R25
+Z35 L0 155
+R7
+r1
+!s85 0
+31
+R26
+R27
+R28
+!s101 -O0
+R9
+Z36 nclk@counter2_vlg_vec_tst
+vclkCounter_vlg_check_tst
+Z37 !s100 JP9TBCU3zf;HPoAzUL<nB2
+Z38 Ihc^TX;kERj=PJE=2BckW43
+Z39 V@E[@hP8`8`SWj8Y45:n[i2
+R3
+Z40 w1425424091
+R24
+R25
+L0 60
+R7
+r1
+31
+Z41 !s108 1425424094.021000
+Z42 !s107 c.vwf.vt|
+R28
+R9
+Z43 nclk@counter_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vclkCounter_vlg_sample_tst
+Z44 !s100 @b_GMFaigUa`>VkI?oeUe3
+Z45 Inck?]UG[kz8T2lNIo4D0Y1
+Z46 VcAJZoBhmQGK3DQS5fa2=Y2
+R3
+R40
+R24
+R25
+L0 30
+R7
+r1
+31
+R41
+R42
+R28
+R9
+Z47 nclk@counter_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vclkCounter_vlg_vec_tst
+Z48 !s100 LAjjU1g>iP=e_og^VZXzV0
+Z49 IOhACHHziAU4287EH;J4Mk0
+Z50 VTihVK7@89jBj;4z^UWZRH0
+R3
+R40
+R24
+R25
+R35
+R7
+r1
+31
+R41
+R42
+R28
+R9
+Z51 nclk@counter_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0

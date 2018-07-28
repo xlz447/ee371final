@@ -1,0 +1,1246 @@
+set_location_assignment PIN_AJ4 -to ADC_CS_N
+set_location_assignment PIN_AK4 -to ADC_DIN
+set_location_assignment PIN_AK3 -to ADC_DOUT
+set_location_assignment PIN_AK2 -to ADC_SCLK
+set_location_assignment PIN_K7 -to AUD_ADCDAT
+set_location_assignment PIN_K8 -to AUD_ADCLRCK
+set_location_assignment PIN_H7 -to AUD_BCLK
+set_location_assignment PIN_J7 -to AUD_DACDAT
+set_location_assignment PIN_H8 -to AUD_DACLRCK
+set_location_assignment PIN_G7 -to AUD_XCK
+set_location_assignment PIN_AF14 -to CLOCK_50
+set_location_assignment PIN_AA16 -to CLOCK2_50
+set_location_assignment PIN_Y26 -to CLOCK3_50
+set_location_assignment PIN_K14 -to CLOCK4_50
+set_location_assignment PIN_AK14 -to DRAM_ADDR[0]
+set_location_assignment PIN_AH14 -to DRAM_ADDR[1]
+set_location_assignment PIN_AG15 -to DRAM_ADDR[2]
+set_location_assignment PIN_AE14 -to DRAM_ADDR[3]
+set_location_assignment PIN_AB15 -to DRAM_ADDR[4]
+set_location_assignment PIN_AC14 -to DRAM_ADDR[5]
+set_location_assignment PIN_AD14 -to DRAM_ADDR[6]
+set_location_assignment PIN_AF15 -to DRAM_ADDR[7]
+set_location_assignment PIN_AH15 -to DRAM_ADDR[8]
+set_location_assignment PIN_AG13 -to DRAM_ADDR[9]
+set_location_assignment PIN_AG12 -to DRAM_ADDR[10]
+set_location_assignment PIN_AH13 -to DRAM_ADDR[11]
+set_location_assignment PIN_AJ14 -to DRAM_ADDR[12]
+set_location_assignment PIN_AF13 -to DRAM_BA[0]
+set_location_assignment PIN_AJ12 -to DRAM_BA[1]
+set_location_assignment PIN_AF11 -to DRAM_CAS_N
+set_location_assignment PIN_AK13 -to DRAM_CKE
+set_location_assignment PIN_AH12 -to DRAM_CLK
+set_location_assignment PIN_AG11 -to DRAM_CS_N
+set_location_assignment PIN_AK6 -to DRAM_DQ[0]
+set_location_assignment PIN_AJ7 -to DRAM_DQ[1]
+set_location_assignment PIN_AK7 -to DRAM_DQ[2]
+set_location_assignment PIN_AK8 -to DRAM_DQ[3]
+set_location_assignment PIN_AK9 -to DRAM_DQ[4]
+set_location_assignment PIN_AG10 -to DRAM_DQ[5]
+set_location_assignment PIN_AK11 -to DRAM_DQ[6]
+set_location_assignment PIN_AJ11 -to DRAM_DQ[7]
+set_location_assignment PIN_AH10 -to DRAM_DQ[8]
+set_location_assignment PIN_AJ10 -to DRAM_DQ[9]
+set_location_assignment PIN_AJ9 -to DRAM_DQ[10]
+set_location_assignment PIN_AH9 -to DRAM_DQ[11]
+set_location_assignment PIN_AH8 -to DRAM_DQ[12]
+set_location_assignment PIN_AH7 -to DRAM_DQ[13]
+set_location_assignment PIN_AJ6 -to DRAM_DQ[14]
+set_location_assignment PIN_AJ5 -to DRAM_DQ[15]
+set_location_assignment PIN_AB13 -to DRAM_LDQM
+set_location_assignment PIN_AE13 -to DRAM_RAS_N
+set_location_assignment PIN_AK12 -to DRAM_UDQM
+set_location_assignment PIN_AA13 -to DRAM_WE_N
+set_location_assignment PIN_AA12 -to FAN_CTRL
+set_location_assignment PIN_J12 -to FPGA_I2C_SCLK
+set_location_assignment PIN_K12 -to FPGA_I2C_SDAT
+set_location_assignment PIN_AC18 -to GPIO_0[0]
+set_location_assignment PIN_AH18 -to GPIO_0[10]
+set_location_assignment PIN_AH17 -to GPIO_0[11]
+set_location_assignment PIN_AG16 -to GPIO_0[12]
+set_location_assignment PIN_AE16 -to GPIO_0[13]
+set_location_assignment PIN_AF16 -to GPIO_0[14]
+set_location_assignment PIN_AG17 -to GPIO_0[15]
+set_location_assignment PIN_AA18 -to GPIO_0[16]
+set_location_assignment PIN_AA19 -to GPIO_0[17]
+set_location_assignment PIN_AE17 -to GPIO_0[18]
+set_location_assignment PIN_AC20 -to GPIO_0[19]
+set_location_assignment PIN_Y17 -to GPIO_0[1]
+set_location_assignment PIN_AH19 -to GPIO_0[20]
+set_location_assignment PIN_AJ20 -to GPIO_0[21]
+set_location_assignment PIN_AH20 -to GPIO_0[22]
+set_location_assignment PIN_AK21 -to GPIO_0[23]
+set_location_assignment PIN_AD19 -to GPIO_0[24]
+set_location_assignment PIN_AD20 -to GPIO_0[25]
+set_location_assignment PIN_AE18 -to GPIO_0[26]
+set_location_assignment PIN_AE19 -to GPIO_0[27]
+set_location_assignment PIN_AF20 -to GPIO_0[28]
+set_location_assignment PIN_AF21 -to GPIO_0[29]
+set_location_assignment PIN_AD17 -to GPIO_0[2]
+set_location_assignment PIN_AF19 -to GPIO_0[30]
+set_location_assignment PIN_AG21 -to GPIO_0[31]
+set_location_assignment PIN_AF18 -to GPIO_0[32]
+set_location_assignment PIN_AG20 -to GPIO_0[33]
+set_location_assignment PIN_AG18 -to GPIO_0[34]
+set_location_assignment PIN_AJ21 -to GPIO_0[35]
+set_location_assignment PIN_Y18 -to GPIO_0[3]
+set_location_assignment PIN_AK16 -to GPIO_0[4]
+set_location_assignment PIN_AK18 -to GPIO_0[5]
+set_location_assignment PIN_AK19 -to GPIO_0[6]
+set_location_assignment PIN_AJ19 -to GPIO_0[7]
+set_location_assignment PIN_AJ17 -to GPIO_0[8]
+set_location_assignment PIN_AJ16 -to GPIO_0[9]
+set_location_assignment PIN_AB17 -to GPIO_1[0]
+set_location_assignment PIN_AG26 -to GPIO_1[10]
+set_location_assignment PIN_AH24 -to GPIO_1[11]
+set_location_assignment PIN_AH27 -to GPIO_1[12]
+set_location_assignment PIN_AJ27 -to GPIO_1[13]
+set_location_assignment PIN_AK29 -to GPIO_1[14]
+set_location_assignment PIN_AK28 -to GPIO_1[15]
+set_location_assignment PIN_AK27 -to GPIO_1[16]
+set_location_assignment PIN_AJ26 -to GPIO_1[17]
+set_location_assignment PIN_AK26 -to GPIO_1[18]
+set_location_assignment PIN_AH25 -to GPIO_1[19]
+set_location_assignment PIN_AA21 -to GPIO_1[1]
+set_location_assignment PIN_AJ25 -to GPIO_1[20]
+set_location_assignment PIN_AJ24 -to GPIO_1[21]
+set_location_assignment PIN_AK24 -to GPIO_1[22]
+set_location_assignment PIN_AG23 -to GPIO_1[23]
+set_location_assignment PIN_AK23 -to GPIO_1[24]
+set_location_assignment PIN_AH23 -to GPIO_1[25]
+set_location_assignment PIN_AK22 -to GPIO_1[26]
+set_location_assignment PIN_AJ22 -to GPIO_1[27]
+set_location_assignment PIN_AH22 -to GPIO_1[28]
+set_location_assignment PIN_AG22 -to GPIO_1[29]
+set_location_assignment PIN_AB21 -to GPIO_1[2]
+set_location_assignment PIN_AF24 -to GPIO_1[30]
+set_location_assignment PIN_AF23 -to GPIO_1[31]
+set_location_assignment PIN_AE22 -to GPIO_1[32]
+set_location_assignment PIN_AD21 -to GPIO_1[33]
+set_location_assignment PIN_AA20 -to GPIO_1[34]
+set_location_assignment PIN_AC22 -to GPIO_1[35]
+set_location_assignment PIN_AC23 -to GPIO_1[3]
+set_location_assignment PIN_AD24 -to GPIO_1[4]
+set_location_assignment PIN_AE23 -to GPIO_1[5]
+set_location_assignment PIN_AE24 -to GPIO_1[6]
+set_location_assignment PIN_AF25 -to GPIO_1[7]
+set_location_assignment PIN_AF26 -to GPIO_1[8]
+set_location_assignment PIN_AG25 -to GPIO_1[9]
+set_location_assignment PIN_AE26 -to HEX0[0]
+set_location_assignment PIN_AE27 -to HEX0[1]
+set_location_assignment PIN_AE28 -to HEX0[2]
+set_location_assignment PIN_AG27 -to HEX0[3]
+set_location_assignment PIN_AF28 -to HEX0[4]
+set_location_assignment PIN_AG28 -to HEX0[5]
+set_location_assignment PIN_AH28 -to HEX0[6]
+set_location_assignment PIN_AJ29 -to HEX1[0]
+set_location_assignment PIN_AH29 -to HEX1[1]
+set_location_assignment PIN_AH30 -to HEX1[2]
+set_location_assignment PIN_AG30 -to HEX1[3]
+set_location_assignment PIN_AF29 -to HEX1[4]
+set_location_assignment PIN_AF30 -to HEX1[5]
+set_location_assignment PIN_AD27 -to HEX1[6]
+set_location_assignment PIN_AB23 -to HEX2[0]
+set_location_assignment PIN_AE29 -to HEX2[1]
+set_location_assignment PIN_AD29 -to HEX2[2]
+set_location_assignment PIN_AC28 -to HEX2[3]
+set_location_assignment PIN_AD30 -to HEX2[4]
+set_location_assignment PIN_AC29 -to HEX2[5]
+set_location_assignment PIN_AC30 -to HEX2[6]
+set_location_assignment PIN_AD26 -to HEX3[0]
+set_location_assignment PIN_AC27 -to HEX3[1]
+set_location_assignment PIN_AD25 -to HEX3[2]
+set_location_assignment PIN_AC25 -to HEX3[3]
+set_location_assignment PIN_AB28 -to HEX3[4]
+set_location_assignment PIN_AB25 -to HEX3[5]
+set_location_assignment PIN_AB22 -to HEX3[6]
+set_location_assignment PIN_AA24 -to HEX4[0]
+set_location_assignment PIN_Y23 -to HEX4[1]
+set_location_assignment PIN_Y24 -to HEX4[2]
+set_location_assignment PIN_W22 -to HEX4[3]
+set_location_assignment PIN_W24 -to HEX4[4]
+set_location_assignment PIN_V23 -to HEX4[5]
+set_location_assignment PIN_W25 -to HEX4[6]
+set_location_assignment PIN_V25 -to HEX5[0]
+set_location_assignment PIN_AA28 -to HEX5[1]
+set_location_assignment PIN_Y27 -to HEX5[2]
+set_location_assignment PIN_AB27 -to HEX5[3]
+set_location_assignment PIN_AB26 -to HEX5[4]
+set_location_assignment PIN_AA26 -to HEX5[5]
+set_location_assignment PIN_AA25 -to HEX5[6]
+set_location_assignment PIN_AA30 -to IRDA_RXD
+set_location_assignment PIN_AB30 -to IRDA_TXD
+set_location_assignment PIN_AA14 -to KEY[0]
+set_location_assignment PIN_AA15 -to KEY[1]
+set_location_assignment PIN_W15 -to KEY[2]
+set_location_assignment PIN_Y16 -to KEY[3]
+set_location_assignment PIN_V16 -to LEDR[0]
+set_location_assignment PIN_W16 -to LEDR[1]
+set_location_assignment PIN_V17 -to LEDR[2]
+set_location_assignment PIN_V18 -to LEDR[3]
+set_location_assignment PIN_W17 -to LEDR[4]
+set_location_assignment PIN_W19 -to LEDR[5]
+set_location_assignment PIN_Y19 -to LEDR[6]
+set_location_assignment PIN_W20 -to LEDR[7]
+set_location_assignment PIN_W21 -to LEDR[8]
+set_location_assignment PIN_Y21 -to LEDR[9]
+set_location_assignment PIN_AD7 -to PS2_CLK
+set_location_assignment PIN_AE7 -to PS2_DAT
+set_location_assignment PIN_AD9 -to PS2_CLK2
+set_location_assignment PIN_AE9 -to PS2_DAT2
+set_location_assignment PIN_AB12 -to SW[0]
+set_location_assignment PIN_AC12 -to SW[1]
+set_location_assignment PIN_AF9 -to SW[2]
+set_location_assignment PIN_AF10 -to SW[3]
+set_location_assignment PIN_AD11 -to SW[4]
+set_location_assignment PIN_AD12 -to SW[5]
+set_location_assignment PIN_AE11 -to SW[6]
+set_location_assignment PIN_AC9 -to SW[7]
+set_location_assignment PIN_AD10 -to SW[8]
+set_location_assignment PIN_AE12 -to SW[9]
+set_location_assignment PIN_H15 -to TD_CLK27
+set_location_assignment PIN_D2 -to TD_DATA[0]
+set_location_assignment PIN_B1 -to TD_DATA[1]
+set_location_assignment PIN_E2 -to TD_DATA[2]
+set_location_assignment PIN_B2 -to TD_DATA[3]
+set_location_assignment PIN_D1 -to TD_DATA[4]
+set_location_assignment PIN_E1 -to TD_DATA[5]
+set_location_assignment PIN_C2 -to TD_DATA[6]
+set_location_assignment PIN_B3 -to TD_DATA[7]
+set_location_assignment PIN_A5 -to TD_HS
+set_location_assignment PIN_F6 -to TD_RESET_N
+set_location_assignment PIN_A3 -to TD_VS
+set_location_assignment PIN_AF4 -to USB_B2_CLK
+set_location_assignment PIN_AH4 -to USB_B2_DATA[0]
+set_location_assignment PIN_AH3 -to USB_B2_DATA[1]
+set_location_assignment PIN_AJ2 -to USB_B2_DATA[2]
+set_location_assignment PIN_AJ1 -to USB_B2_DATA[3]
+set_location_assignment PIN_AH2 -to USB_B2_DATA[4]
+set_location_assignment PIN_AG3 -to USB_B2_DATA[5]
+set_location_assignment PIN_AG2 -to USB_B2_DATA[6]
+set_location_assignment PIN_AG1 -to USB_B2_DATA[7]
+set_location_assignment PIN_AF5 -to USB_EMPTY
+set_location_assignment PIN_AG5 -to USB_FULL
+set_location_assignment PIN_AF6 -to USB_OE_N
+set_location_assignment PIN_AG6 -to USB_RD_N
+set_location_assignment PIN_AG7 -to USB_RESET_N
+set_location_assignment PIN_AG8 -to USB_SCL
+set_location_assignment PIN_AF8 -to USB_SDA
+set_location_assignment PIN_AH5 -to USB_WR_N
+set_location_assignment PIN_B13 -to VGA_B[0]
+set_location_assignment PIN_G13 -to VGA_B[1]
+set_location_assignment PIN_H13 -to VGA_B[2]
+set_location_assignment PIN_F14 -to VGA_B[3]
+set_location_assignment PIN_H14 -to VGA_B[4]
+set_location_assignment PIN_F15 -to VGA_B[5]
+set_location_assignment PIN_G15 -to VGA_B[6]
+set_location_assignment PIN_J14 -to VGA_B[7]
+set_location_assignment PIN_F10 -to VGA_BLANK_N
+set_location_assignment PIN_A11 -to VGA_CLK
+set_location_assignment PIN_J9 -to VGA_G[0]
+set_location_assignment PIN_J10 -to VGA_G[1]
+set_location_assignment PIN_H12 -to VGA_G[2]
+set_location_assignment PIN_G10 -to VGA_G[3]
+set_location_assignment PIN_G11 -to VGA_G[4]
+set_location_assignment PIN_G12 -to VGA_G[5]
+set_location_assignment PIN_F11 -to VGA_G[6]
+set_location_assignment PIN_E11 -to VGA_G[7]
+set_location_assignment PIN_B11 -to VGA_HS
+set_location_assignment PIN_A13 -to VGA_R[0]
+set_location_assignment PIN_C13 -to VGA_R[1]
+set_location_assignment PIN_E13 -to VGA_R[2]
+set_location_assignment PIN_B12 -to VGA_R[3]
+set_location_assignment PIN_C12 -to VGA_R[4]
+set_location_assignment PIN_D12 -to VGA_R[5]
+set_location_assignment PIN_E12 -to VGA_R[6]
+set_location_assignment PIN_F13 -to VGA_R[7]
+set_location_assignment PIN_C10 -to VGA_SYNC_N
+set_location_assignment PIN_D11 -to VGA_VS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_CS_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DIN
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_DOUT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ADC_SCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_ADCDAT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_ADCLRCK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_BCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_DACDAT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_DACLRCK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_XCK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK2_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK3_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK4_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_ADDR[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_BA[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_BA[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CAS_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CKE
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_CS_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_DQ[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_LDQM
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_RAS_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_UDQM
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to DRAM_WE_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FAN_CTRL
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_I2C_SCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to FPGA_I2C_SDAT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[18]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[19]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[20]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[21]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[22]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[23]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[24]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[25]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[26]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[27]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[28]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[29]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[30]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[31]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[32]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[33]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[34]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[35]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_0[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[18]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[19]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[20]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[21]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[22]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[23]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[24]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[25]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[26]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[27]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[28]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[29]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[30]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[31]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[32]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[33]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[34]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[35]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX2[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX3[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX4[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX5[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IRDA_RXD
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IRDA_TXD
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_DAT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_CLK2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to PS2_DAT2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to SW[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_CLK27
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_DATA[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_HS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_RESET_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TD_VS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_B2_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_B2_DATA[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_B2_DATA[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_B2_DATA[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_B2_DATA[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_B2_DATA[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_B2_DATA[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_B2_DATA[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_B2_DATA[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_EMPTY
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_FULL
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_OE_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_RD_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_RESET_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_SCL
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_SDA
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to USB_WR_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_B[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_BLANK_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_G[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_HS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_R[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_SYNC_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to VGA_VS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_CONV_USB_N
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[0]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[2]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[3]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[4]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[5]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[6]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[7]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[8]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[9]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[10]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[11]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[12]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[13]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ADDR[14]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_BA[0]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_BA[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_BA[2]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_CAS_N
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_CKE
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_CK_N
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_CK_P
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_CS_N
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DM[0]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DM[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DM[2]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DM[3]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[0]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[1]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[2]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[3]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[4]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[5]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[6]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[7]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[8]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[9]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[10]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[11]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[12]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[13]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[14]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[15]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[16]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[17]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[18]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[19]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[20]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[21]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[22]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[23]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[24]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[25]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[26]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[27]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[28]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[29]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[30]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_DQ[31]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_DQS_N[0]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_DQS_N[1]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_DQS_N[2]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_DQS_N[3]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_DQS_P[0]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_DQS_P[1]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_DQS_P[2]
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL 1.5-V SSTL CLASS I" -to HPS_DDR3_DQS_P[3]
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_ODT
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_RAS_N
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_RESET_N
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_RZQ
+set_instance_assignment -name IO_STANDARD "SSTL-15 CLASS I" -to HPS_DDR3_WE_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_GTX_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_INT_N
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_MDC
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_MDIO
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_RX_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_RX_DATA[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_RX_DATA[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_RX_DATA[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_RX_DATA[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_RX_DV
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_TX_DATA[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_TX_DATA[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_TX_DATA[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_TX_DATA[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_ENET_TX_EN
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_FLASH_DATA[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_FLASH_DATA[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_FLASH_DATA[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_FLASH_DATA[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_FLASH_DCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_FLASH_NCSO
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_GSENSOR_INT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_I2C1_SCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_I2C1_SDAT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_I2C2_SCLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_I2C2_SDAT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_I2C_CONTROL
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_KEY
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_LED
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_LTC_GPIO
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SD_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SD_CMD
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SD_DATA[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SD_DATA[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SD_DATA[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SD_DATA[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SPIM_CLK
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SPIM_MISO
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SPIM_MOSI
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_SPIM_SS
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_UART_RX
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_UART_TX
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_CLKOUT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_DATA[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_DATA[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_DATA[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_DATA[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_DATA[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_DATA[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_DATA[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_DATA[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_DIR
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_NXT
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_USB_STP
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_GPIO[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HPS_GPIO[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[10]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[11]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[12]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[13]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[14]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[8]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ADDR[9]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_BA[0]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_BA[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_BA[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_CAS_N
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_CKE
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_CS_N
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_ODT
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_RAS_N
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_WE_N
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to HPS_DDR3_RESET_N
+set_instance_assignment -name D5_DELAY 2 -to HPS_DDR3_CK_P
+set_instance_assignment -name D5_DELAY 2 -to HPS_DDR3_CK_N
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[0]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[1]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[2]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[3]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[4]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[5]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[6]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[7]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[8]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[9]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[10]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[11]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[12]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[13]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[14]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[15]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[16]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[17]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[18]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[19]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[20]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[21]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[22]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[23]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[24]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[25]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[26]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[27]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[28]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[29]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[30]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[31]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_P[0]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_P[1]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_P[2]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_P[3]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_N[0]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_N[1]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_N[2]
+set_instance_assignment -name INPUT_TERMINATION "PARALLEL 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_N[3]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[0]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[1]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[2]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[3]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[4]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[5]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[6]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[7]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[8]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[9]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[10]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[11]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[12]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[13]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[14]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[15]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[16]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[17]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[18]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[19]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[20]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[21]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[22]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[23]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[24]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[25]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[26]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[27]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[28]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[29]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[30]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQ[31]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_P[0]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_P[1]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_P[2]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_P[3]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_N[0]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_N[1]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_N[2]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DQS_N[3]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to HPS_DDR3_CK_P
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITHOUT CALIBRATION" -to HPS_DDR3_CK_N
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DM[0]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DM[1]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DM[2]
+set_instance_assignment -name OUTPUT_TERMINATION "SERIES 50 OHM WITH CALIBRATION" -to HPS_DDR3_DM[3]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[0]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[1]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[2]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[3]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[4]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[5]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[6]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[7]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[8]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[9]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[10]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[11]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[12]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[13]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[14]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[15]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[16]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[17]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[18]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[19]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[20]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[21]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[22]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[23]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[24]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[25]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[26]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[27]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[28]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[29]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[30]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQ[31]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DM[0]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DM[1]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DM[2]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DM[3]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQS_P[0]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQS_P[1]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQS_P[2]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQS_P[3]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQS_N[0]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQS_N[1]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQS_N[2]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_DQS_N[3]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[0]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[10]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[11]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[12]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[13]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[14]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[1]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[2]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[3]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[4]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[5]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[6]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[7]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[8]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ADDR[9]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_BA[0]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_BA[1]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_BA[2]
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_CAS_N
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_CKE
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_CS_N
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_ODT
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_RAS_N
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_WE_N
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_RESET_N
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_CK_P
+set_instance_assignment -name PACKAGE_SKEW_COMPENSATION OFF -to HPS_DDR3_CK_N
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY onBoardSerialCom
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name LAST_QUARTUS_VERSION 14.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name STATE_MACHINE_PROCESSING "USER-ENCODED"
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/x5277219/Desktop/Lab1 Counter1/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE counter1.stp
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/lab4_cpu.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_transEnable.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_onchip_memory.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_nios2_processor_test_bench.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_nios2_processor_oci_test_bench.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_nios2_processor_jtag_debug_module_wrapper.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_nios2_processor_jtag_debug_module_tck.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_nios2_processor_jtag_debug_module_sysclk.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_nios2_processor.v
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_rsp_mux_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_rsp_mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_rsp_demux_002.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_router_004.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_router_002.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_router_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_router.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_cmd_mux_002.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_cmd_mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_cmd_demux_001.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0_cmd_demux.sv
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_mm_interconnect_0.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_LEDs.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_jtag_uart.v
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_irq_mapper.sv
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_dataToMem.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/lab4_cpu_charSent.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/altera_reset_synchronizer.v
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/altera_reset_controller.v
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/altera_merlin_slave_translator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/altera_merlin_slave_agent.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/altera_merlin_master_translator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/altera_merlin_master_agent.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialComCPU1/synthesis/submodules/altera_merlin_arbitrator.sv
+set_global_assignment -name VERILOG_FILE SerialComCPU1/synthesis/submodules/altera_avalon_sc_fifo.v
+set_global_assignment -name QSYS_FILE lab4_cpu.qsys
+set_global_assignment -name SDC_FILE DE1_SoC.sdc
+set_global_assignment -name QIP_FILE lab4_cpu.qip
+set_global_assignment -name IP_TOOL_NAME Qsys -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SOPCINFO_FILE ../../lab4_cpu.sopcinfo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SLD_INFO "QSYS_NAME lab4_cpu HAS_SOPCINFO 1 GENERATION_ID 1426196290" -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name MISC_FILE ../lab4_cpu.cmp -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SLD_FILE lab4_cpu.regmap -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SLD_FILE lab4_cpu.debuginfo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TARGETED_DEVICE_FAMILY "Cyclone V" -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_GENERATED_DEVICE_FAMILY "\{Cyclone V\}" -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_QSYS_MODE UNKNOWN -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON -qip lab4_cpu.qip
+set_global_assignment -name MISC_FILE ../../lab4_cpu.qsys -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHU=" -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "bGFiNF9jcHU=" -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY ON -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION MS4w -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4=" -entity lab4_cpu -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX3Jlc2V0X2NvbnRyb2xsZXI=" -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVybGluIFJlc2V0IENvbnRyb2xsZXI=" -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "Rm9yIHN5c3RlbXMgd2l0aCBtdWx0aXBsZSByZXNldCBpbnB1dHMsIHRoZSBNZXJsaW4gUmVzZXQgQ29udHJvbGxlciBPUnMgYWxsIHJlc2V0IGlucHV0cyBhbmQgZ2VuZXJhdGVzIGEgc2luZ2xlIHJlc2V0IG91dHB1dC4=" -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF" -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfaXJxX21hcHBlcg==" -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVybGluIElSUSBNYXBwZXI=" -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Q29udmVydHMgaW5kaXZpZHVhbCBpbnRlcnJ1cHQgd2lyZXMgdG8gYSBidXMuIEJ5IGRlZmF1bHQsIHRoZSBpbnRlcnJ1cHQgc2VuZGVyIGNvbm5lY3RlZCB0byB0aGUgcmVjZWl2ZXIwIGludGVyZmFjZSBvZiB0aGUgSVJRIG1hcHBlciBpcyB0aGUgaGlnaGVzdCBwcmlvcml0eSB3aXRoIHNlcXVlbnRpYWwgcmVjZWl2ZXJzIGJlaWluZyBzdWNjZXNzaXZlbHkgbG93ZXIgcHJpb3JpdHku -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ" -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzA=" -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TU0gSW50ZXJjb25uZWN0 -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL ON -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION TU0gSW50ZXJjb25uZWN0 -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNTRU1BNUYzMUM2::QXV0byBERVZJQ0U=" -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfcnNwX211eF8wMDE=" -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBNdWx0aXBsZXhlcg==" -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QXJiaXRyYXRlcyBiZXR3ZWVuIHJlcXVlc3RpbmcgbWFzdGVycyB1c2luZyBhbiBlcXVhbCBzaGFyZSwgcm91bmQtcm9iaW4gYWxnb3JpdGhtLiBUaGUgYXJiaXRyYXRpb24gc2NoZW1lIGNhbiBiZSBjaGFuZ2VkIHRvIHdlaWdodGVkIHJvdW5kLXJvYmluIGJ5IHNwZWNpZnlpbmcgYSByZWxhdGl2ZSBudW1iZXIgb2YgYXJiaXRyYXRpb24gc2hhcmVzIHRvIHRoZSBtYXN0ZXJzIHRoYXQgYWNjZXNzIGEgcGFydGljdWxhciBzbGF2ZS4=" -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ" -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfcnNwX211eA==" -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBNdWx0aXBsZXhlcg==" -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QXJiaXRyYXRlcyBiZXR3ZWVuIHJlcXVlc3RpbmcgbWFzdGVycyB1c2luZyBhbiBlcXVhbCBzaGFyZSwgcm91bmQtcm9iaW4gYWxnb3JpdGhtLiBUaGUgYXJiaXRyYXRpb24gc2NoZW1lIGNhbiBiZSBjaGFuZ2VkIHRvIHdlaWdodGVkIHJvdW5kLXJvYmluIGJ5IHNwZWNpZnlpbmcgYSByZWxhdGl2ZSBudW1iZXIgb2YgYXJiaXRyYXRpb24gc2hhcmVzIHRvIHRoZSBtYXN0ZXJzIHRoYXQgYWNjZXNzIGEgcGFydGljdWxhciBzbGF2ZS4=" -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ" -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfcnNwX2RlbXV4XzAwMg==" -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TWVtb3J5IE1hcHBlZCBEZW11bHRpcGxleGVy -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION QWNjZXB0cyBjaGFubmVsaXplZCBkYXRhIG9uIGl0cyBzaW5rIGludGVyZmFjZSBhbmQgdHJhbnNtaXRzIHRoZSBkYXRhIG9uIG9uZSBvZiBpdHMgc291cmNlIGludGVyZmFjZXMu -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ" -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfY21kX211eF8wMDI=" -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBNdWx0aXBsZXhlcg==" -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QXJiaXRyYXRlcyBiZXR3ZWVuIHJlcXVlc3RpbmcgbWFzdGVycyB1c2luZyBhbiBlcXVhbCBzaGFyZSwgcm91bmQtcm9iaW4gYWxnb3JpdGhtLiBUaGUgYXJiaXRyYXRpb24gc2NoZW1lIGNhbiBiZSBjaGFuZ2VkIHRvIHdlaWdodGVkIHJvdW5kLXJvYmluIGJ5IHNwZWNpZnlpbmcgYSByZWxhdGl2ZSBudW1iZXIgb2YgYXJiaXRyYXRpb24gc2hhcmVzIHRvIHRoZSBtYXN0ZXJzIHRoYXQgYWNjZXNzIGEgcGFydGljdWxhciBzbGF2ZS4=" -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ" -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfY21kX211eA==" -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBNdWx0aXBsZXhlcg==" -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QXJiaXRyYXRlcyBiZXR3ZWVuIHJlcXVlc3RpbmcgbWFzdGVycyB1c2luZyBhbiBlcXVhbCBzaGFyZSwgcm91bmQtcm9iaW4gYWxnb3JpdGhtLiBUaGUgYXJiaXRyYXRpb24gc2NoZW1lIGNhbiBiZSBjaGFuZ2VkIHRvIHdlaWdodGVkIHJvdW5kLXJvYmluIGJ5IHNwZWNpZnlpbmcgYSByZWxhdGl2ZSBudW1iZXIgb2YgYXJiaXRyYXRpb24gc2hhcmVzIHRvIHRoZSBtYXN0ZXJzIHRoYXQgYWNjZXNzIGEgcGFydGljdWxhciBzbGF2ZS4=" -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ" -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfY21kX2RlbXV4XzAwMQ==" -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TWVtb3J5IE1hcHBlZCBEZW11bHRpcGxleGVy -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION QWNjZXB0cyBjaGFubmVsaXplZCBkYXRhIG9uIGl0cyBzaW5rIGludGVyZmFjZSBhbmQgdHJhbnNtaXRzIHRoZSBkYXRhIG9uIG9uZSBvZiBpdHMgc291cmNlIGludGVyZmFjZXMu -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ" -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfY21kX2RlbXV4 -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME TWVtb3J5IE1hcHBlZCBEZW11bHRpcGxleGVy -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION QWNjZXB0cyBjaGFubmVsaXplZCBkYXRhIG9uIGl0cyBzaW5rIGludGVyZmFjZSBhbmQgdHJhbnNtaXRzIHRoZSBkYXRhIG9uIG9uZSBvZiBpdHMgc291cmNlIGludGVyZmFjZXMu -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ" -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfcm91dGVyXzAwNA==" -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBSb3V0ZXI=" -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Um91dGVzIGNvbW1hbmQgcGFja2V0cyBmcm9tIHRoZSBtYXN0ZXIgdG8gdGhlIHNsYXZlIGFuZCByZXNwb25zZSBwYWNrZXRzIGZyb20gdGhlIHNsYXZlIHRvIHRoZSBtYXN0ZXIu -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfcm91dGVyXzAwMg==" -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBSb3V0ZXI=" -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Um91dGVzIGNvbW1hbmQgcGFja2V0cyBmcm9tIHRoZSBtYXN0ZXIgdG8gdGhlIHNsYXZlIGFuZCByZXNwb25zZSBwYWNrZXRzIGZyb20gdGhlIHNsYXZlIHRvIHRoZSBtYXN0ZXIu -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfcm91dGVyXzAwMQ==" -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBSb3V0ZXI=" -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Um91dGVzIGNvbW1hbmQgcGFja2V0cyBmcm9tIHRoZSBtYXN0ZXIgdG8gdGhlIHNsYXZlIGFuZCByZXNwb25zZSBwYWNrZXRzIGZyb20gdGhlIHNsYXZlIHRvIHRoZSBtYXN0ZXIu -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME bGFiNF9jcHVfbW1faW50ZXJjb25uZWN0XzBfcm91dGVy -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TWVtb3J5IE1hcHBlZCBSb3V0ZXI=" -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Um91dGVzIGNvbW1hbmQgcGFja2V0cyBmcm9tIHRoZSBtYXN0ZXIgdG8gdGhlIHNsYXZlIGFuZCByZXNwb25zZSBwYWNrZXRzIGZyb20gdGhlIHNsYXZlIHRvIHRoZSBtYXN0ZXIu -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME YWx0ZXJhX2F2YWxvbl9zY19maWZv -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME QXZhbG9uLVNUIFNpbmdsZSBDbG9jayBGSUZP -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ" -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX21lcmxpbl9zbGF2ZV9hZ2VudA==" -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME QXZhbG9uIE1NIFNsYXZlIEFnZW50 -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION "QWNjZXB0cyBjb21tYW5kIHBhY2tldHMgYW5kIGlzc3VlcyB0aGUgcmVzdWx0aW5nIHRyYW5zYWN0aW9ucyB0byB0aGUgQXZhbG9uIGludGVyZmFjZS4gUmVmZXIgdG8gdGhlIEF2YWxvbiBJbnRlcmZhY2UgU3BlY2lmaWNhdGlvbnMgKGh0dHA6Ly93d3cuYWx0ZXJhLmNvbS9saXRlcmF0dXJlL21hbnVhbC9tbmxfYXZhbG9uX3NwZWMucGRmKSBmb3IgZXhwbGFuYXRpb25zIG9mIHRoZSBidXJzdGluZyBwcm9wZXJ0aWVzLg==" -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "VVNFX1dSSVRFUkVTUE9OU0U=::MA==::VXNlIHdyaXRlcmVzcG9uc2U=" -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX21lcmxpbl9tYXN0ZXJfYWdlbnQ=" -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIE1NIE1hc3RlciBBZ2VudA==" -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION VHJhbnNsYXRlcyBBdmFsb24tTU0gbWFzdGVyIHRyYW5zYWN0aW9ucyBpbnRvIFFzeXMgY29tbWFuZCBwYWNrZXRzIGFuZCB0cmFuc2xhdGVzIHRoZSBRc3lzIEF2YWxvbi1NTSBzbGF2ZSByZXNwb25zZSBwYWNrZXRzIGludG8gQXZhbG9uLU1NIHJlc3BvbnNlcy4gUmVmZXIgdG8gdGhlIEF2YWxvbiBJbnRlcmZhY2UgU3BlY2lmaWNhdGlvbnMgKGh0dHA6Ly93d3cuYWx0ZXJhLmNvbS9saXRlcmF0dXJlL21hbnVhbC9tbmxfYXZhbG9uX3NwZWMucGRmKSBmb3IgYW4gZXhwbGFuYXRpb24gb2YgYnVyc3RpbmcgYmVoYXZpb3Iu -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME YWx0ZXJhX21lcmxpbl9zbGF2ZV90cmFuc2xhdG9y -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIE1NIFNsYXZlIFRyYW5zbGF0b3I=" -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Q29udmVydHMgdGhlIEF2YWxvbi1NTSBzbGF2ZSBpbnRlcmZhY2UgdG8gYSBzaW1wbGlmaWVkIHJlcHJlc2VudGF0aW9uIHRoYXQgdGhlIFFzeXMgbmV0d29yayB1c2VzLiBSZWZlciB0byB0aGUgQXZhbG9uIEludGVyZmFjZSBTcGVjaWZpY2F0aW9ucyAoaHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvbWFudWFsL21ubF9hdmFsb25fc3BlYy5wZGYpIGZvciBkZWZpbml0aW9ucyBvZiB0aGUgQXZhbG9uLU1NIHNpZ25hbHMgYW5kIGV4cGxhbmF0aW9ucyBvZiB0aGUgYnVyc3RpbmcgcHJvcGVydGllcyBhbmQgYWRkcmVzcyBhbGlnbm1lbnQu -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVZfREFUQV9IT0xEX0NZQ0xFUw==::MA==::QVZfREFUQV9IT0xEX0NZQ0xFUw==" -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "YWx0ZXJhX21lcmxpbl9tYXN0ZXJfdHJhbnNsYXRvcg==" -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME QXZhbG9uIE1NIE1hc3RlciBUcmFuc2xhdG9y -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION Q29udmVydHMgdGhlIEF2YWxvbi1NTSBtYXN0ZXIgaW50ZXJmYWNlIHRvIGEgc2ltcGxlciByZXByZXNlbnRhdGlvbiB0aGF0IHRoZSBRc3lzIG5ldHdvcmsgdXNlcy4gUmVmZXIgdG8gdGhlIEF2YWxvbiBJbnRlcmZhY2UgU3BlY2lmaWNhdGlvbnMgKGh0dHA6Ly93d3cuYWx0ZXJhLmNvbS9saXRlcmF0dXJlL21hbnVhbC9tbmxfYXZhbG9uX3NwZWMucGRmKSBmb3IgZGVmaW5pdGlvbnMgb2YgdGhlIEF2YWxvbi1NTSBzaWduYWxzIGFuZCBleHBsYW5hdGlvbnMgb2YgdGhlIGJ1cnN0aW5nIHByb3BlcnRpZXMu -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::NTAwMDAwMDA=::QXV0byBDTE9DS19SQVRF" -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfdHJhbnNFbmFibGU=" -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME UElPIChQYXJhbGxlbCBJL08p -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfaXJx::ZmFsc2U=::ZGVyaXZlZF9oYXNfaXJx" -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfY2hhclNlbnQ=" -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME UElPIChQYXJhbGxlbCBJL08p -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfaXJx::ZmFsc2U=::ZGVyaXZlZF9oYXNfaXJx" -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME bGFiNF9jcHVfZGF0YVRvTWVt -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME UElPIChQYXJhbGxlbCBJL08p -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfaXJx::ZmFsc2U=::ZGVyaXZlZF9oYXNfaXJx" -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME bGFiNF9jcHVfbmlvczJfcHJvY2Vzc29y -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME "TmlvcyBJSSBQcm9jZXNzb3I=" -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DESCRIPTION QWx0ZXJhIE5pb3MgSUkgUHJvY2Vzc29y -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZGV2aWNlRmVhdHVyZXNTeXN0ZW1JbmZv::QUREUkVTU19TVEFMTCAxIEFEVkFOQ0VEX0lORk8gMCBBTExPV1NfQ09NUElMSU5HX09USEVSX0ZBTUlMWV9JUCAxIEFOWV9RRlAgMCBDRUxMX0xFVkVMX0JBQ0tfQU5OT1RBVElPTl9ESVNBQkxFRCAwIENPTVBJTEVSX1NVUFBPUlQgMSBEU1AgMCBEU1BfU0hJRlRFUl9CTE9DSyAwIERVTVBfQVNNX0xBQl9CSVRTX0ZPUl9QT1dFUiAwIEVNVUwgMSBFTkFCTEVfQURWQU5DRURfSU9fQU5BTFlTSVNfR1VJX0ZFQVRVUkVTIDEgRU5BQkxFX1BJTl9QTEFOTkVSIDAgRU5HSU5FRVJJTkdfU0FNUExFIDAgRVBDUyAxIEVTQiAwIEZBS0UxIDAgRkFLRTIgMCBGQUtFMyAwIEZBTUlMWV9MRVZFTF9JTlNUQUxMQVRJT05fT05MWSAwIEZBU1RFU1QgMCBGSU5BTF9USU1JTkdfTU9ERUwgMCBGSVRURVJfVVNFX0ZBTExJTkdfRURHRV9ERUxBWSAxIEdFTkVSQVRFX0RDX09OX0NVUlJFTlRfV0FSTklOR19GT1JfSU5URVJOQUxfQ0xBTVBJTkdfRElPREUgMSBIQVJEQ09QWSAwIEhBU18xOF9CSVRfTVVMVFMgMSBIQVNfQUNFX1NVUFBPUlQgMSBIQVNfQUNUSVZFX1BBUkFMTEVMX0ZMQVNIX1NVUFBPUlQgMCBIQVNfQURKVVNUQUJMRV9PVVRQVVRfSU9fVElNSU5HX01FQVNfUE9JTlQgMSBIQVNfQURWQU5DRURfSU9fSU5WRVJURURfQ09STkVSIDEgSEFTX0FEVkFOQ0VEX0lPX1BPV0VSX1NVUFBPUlQgMSBIQVNfQURWQU5DRURfSU9fVElNSU5HX1NVUFBPUlQgMSBIQVNfQUxNX1NVUFBPUlQgMSBIQVNfQVRPTV9BTkRfUk9VVElOR19QT1dFUl9NT0RFTEVEX1RPR0VUSEVSIDAgSEFTX0FVVE9fREVSSVZFX0NMT0NLX1VOQ0VSVEFJTlRZX1NVUFBPUlQgMSBIQVNfQVVUT19GSVRfU1VQUE9SVCAxIEhBU19CQUxBTkNFRF9PUFRfVEVDSE5JUVVFX1NVUFBPUlQgMSBIQVNfQkVORUZJQ0lBTF9TS0VXX1NVUFBPUlQgMCBIQVNfQklUTEVWRUxfRFJJVkVfU1RSRU5HVEhfQ09OVFJPTCAxIEhBU19CU0RMX0ZJTEVfR0VORVJBVElPTiAxIEhBU19DREJfUkVfTkVUV09SS19QUkVTRVJWQVRJT05fU1VQUE9SVCAwIEhBU19DR0FfU1VQUE9SVCAxIEhBU19DSEVDS19ORVRMSVNUX1NVUFBPUlQgMSBIQVNfQ0xPQ0tfUkVHSU9OX0NIRUNLRVJfRU5BQkxFRCAxIEhBU19DT1JFX0pVTkNUSU9OX1RFTVBfREVSQVRJTkcgMCBIQVNfQ1JPU1NUQUxLX1NVUFBPUlQgMCBIQVNfQ1VTVE9NX1JFR0lPTl9TVVBQT1JUIDEgSEFTX0RBUF9KVEFHX0ZST01fSFBTIDAgSEFTX0RBVEFfRFJJVkVOX0FDVlFfSFNTSV9TVVBQT1JUIDEgSEFTX0REQl9GRElfU1VQUE9SVCAxIEhBU19ERVNJR05fQU5BTFlaRVJfU1VQUE9SVCAxIEhBU19ERVRBSUxFRF9JT19SQUlMX1BPV0VSX01PREVMIDEgSEFTX0RFVEFJTEVEX0xFSU1fU1RBVElDX1BPV0VSX01PREVMIDAgSEFTX0RFVEFJTEVEX0xFX1BPV0VSX01PREVMIDEgSEFTX0RFVEFJTEVEX1JPVVRJTkdfTVVYX1NUQVRJQ19QT1dFUl9NT0RFTCAwIEhBU19ERVRBSUxFRF9USEVSTUFMX0NJUkNVSVRfUEFSQU1FVEVSX1NVUFBPUlQgMSBIQVNfREVWSUNFX01JR1JBVElPTl9TVVBQT1JUIDEgSEFTX0RJQUdPTkFMX01JR1JBVElPTl9TVVBQT1JUIDAgSEFTX0VNSUZfVE9PTEtJVF9TVVBQT1JUIDEgSEFTX0VSUk9SX0RFVEVDVElPTl9TVVBQT1JUIDEgSEFTX0ZBTUlMWV9WQVJJQU5UX01JR1JBVElPTl9TVVBQT1JUIDAgSEFTX0ZBTk9VVF9GUkVFX05PREVfU1VQUE9SVCAxIEhBU19GQVNUX0ZJVF9TVVBQT1JUIDEgSEFTX0ZJVFRFUl9FQVJMWV9USU1JTkdfRVNUSU1BVEVfU1VQUE9SVCAwIEhBU19GSVRURVJfRUNPX1NVUFBPUlQgMSBIQVNfRklUX05FVExJU1RfT1BUX1JFVElNRV9TVVBQT1JUIDEgSEFTX0ZJVF9ORVRMSVNUX09QVF9TVVBQT1JUIDEgSEFTX0ZPUk1BTF9WRVJJRklDQVRJT05fU1VQUE9SVCAxIEhBU19GUEdBX1hDSEFOR0VfU1VQUE9SVCAxIEhBU19GU0FDX0xVVFJBTV9SRUdJU1RFUl9QQUNLSU5HX1NVUFBPUlQgMSBIQVNfRlVMTF9EQVRfTUlOX1RJTUlOR19TVVBQT1JUIDEgSEFTX0ZVTExfSU5DUkVNRU5UQUxfREVTSUdOX1NVUFBPUlQgMSBIQVNfRlVOQ1RJT05BTF9TSU1VTEFUSU9OX1NVUFBPUlQgMCBIQVNfRlVOQ1RJT05BTF9WRVJJTE9HX1NJTVVMQVRJT05fU1VQUE9SVCAxIEhBU19GVU5DVElPTkFMX1ZIRExfU0lNVUxBVElPTl9TVVBQT1JUIDEgSEFTX0dMSVRDSF9GSUxURVJJTkdfU1VQUE9SVCAxIEhBU19IQVJEQ09QWUlJX1NVUFBPUlQgMCBIQVNfSENfUkVBRFlfU1VQUE9SVCAwIEhBU19ISUdIX1NQRUVEX0xPV19QT1dFUl9USUxFX1NVUFBPUlQgMCBIQVNfSE9MRF9USU1FX0FWT0lEQU5DRV9BQ1JPU1NfQ0xPQ0tfU1BJTkVfU1VQUE9SVCAxIEhBU19IU1BJQ0VfV1JJVEVSX1NVUFBPUlQgMSBIQVNfSFNTSV9QT1dFUl9DQUxDVUxBVE9SIDEgSEFTX0lCSVNPX1dSSVRFUl9TVVBQT1JUIDAgSEFTX0lDRF9EQVRBX0lQIDAgSEFTX0lOQ1JFTUVOVEFMX0RBVF9TVVBQT1JUIDEgSEFTX0lOQ1JFTUVOVEFMX1NZTlRIRVNJU19TVVBQT1JUIDEgSEFTX0lOVEVSRkFDRV9QTEFOTkVSX1NVUFBPUlQgMCBIQVNfSU9fQVNTSUdOTUVOVF9BTkFMWVNJU19TVVBQT1JUIDEgSEFTX0lPX0RFQ09ERVIgMSBIQVNfSU9fUExBQ0VNRU5UX09QVElNSVpBVElPTl9TVVBQT1JUIDEgSEFTX0lPX1NNQVJUX1JFQ09NUElMRV9TVVBQT1JUIDAgSEFTX0pJVFRFUl9TVVBQT1JUIDEgSEFTX0pUQUdfU0xEX0hVQl9TVVBQT1JUIDEgSEFTX0xJTUlURURfVENMX0ZJVFRFUl9TVVBQT1JUIDEgSEFTX0xPR0lDQUxfRkxPT1JQTEFOTkVSX1NVUFBPUlQgMCBIQVNfTE9HSUNfTE9DS19TVVBQT1JUIDEgSEFTX01JQ1JPUFJPQ0VTU09SIDAgSEFTX01JRl9TTUFSVF9DT01QSUxFX1NVUFBPUlQgMSBIQVNfTUlOTUFYX1RJTUlOR19NT0RFTElOR19TVVBQT1JUIDEgSEFTX01JTl9USU1JTkdfQU5BTFlTSVNfU1VQUE9SVCAxIEhBU19NVVhfUkVTVFJVQ1RVUkVfU1VQUE9SVCAxIEhBU19ORVdfSENfRkxPV19TVVBQT1JUIDAgSEFTX05FV19TRVJERVNfTUFYX1JFU09VUkNFX0NPVU5UX1JFUE9SVElOR19TVVBQT1JUIDAgSEFTX05FV19WUFJfU1VQUE9SVCAxIEhBU19OT05TT0NLRVRfVEVDSE5PTE9HWV9NSUdSQVRJT05fU1VQUE9SVCAwIEhBU19OT19IQVJEQkxPQ0tfUEFSVElUSU9OX1NVUFBPUlQgMCBIQVNfTk9fSlRBR19VU0VSQ09ERV9TVVBQT1JUIDAgSEFTX09QRVJBVElOR19TRVRUSU5HU19BTkRfQ09ORElUSU9OU19SRVBPUlRJTkdfU1VQUE9SVCAxIEhBU19QQURfTE9DQVRJT05fQVNTSUdOTUVOVF9TVVBQT1JUIDAgSEFTX1BBUlRJQUxfUkVDT05GSUdfU1VQUE9SVCAxIEhBU19QQVNTSVZFX1BBUkFMTEVMX1NVUFBPUlQgMCBIQVNfUEhZU0lDQUxfREVTSUdOX1BMQU5ORVJfU1VQUE9SVCAwIEhBU19QSFlTSUNBTF9ORVRMSVNUX09VVFBVVCAwIEhBU19QSFlTSUNBTF9ST1VUSU5HX1NVUFBPUlQgMSBIQVNfUElOX1NQRUNJRklDX1ZPTFRBR0VfU1VQUE9SVCAxIEhBU19QTERNX1JFRl9TVVBQT1JUIDAgSEFTX1BPV0VSX0JJTk5JTkdfTElNSVRTX0RBVEEgMSBIQVNfUE9XRVJfRVNUSU1BVElPTl9TVVBQT1JUIDEgSEFTX1BSRUxJTUlOQVJZX0NMT0NLX1VOQ0VSVEFJTlRZX05VTUJFUlMgMCBIQVNfUFJFX0ZJVFRFUl9GUFBfU1VQUE9SVCAxIEhBU19QUkVfRklUVEVSX0xVVFJBTV9ORVRMSVNUX0NIRUNLRVJfRU5BQkxFRCAxIEhBU19QVkFfU1VQUE9SVCAxIEhBU19SQVBJRF9SRUNPTVBJTEVfU1VQUE9SVCAxIEhBU19SQ0ZfU1VQUE9SVCAxIEhBU19SQ0ZfU1VQUE9SVF9GT1JfREVCVUdHSU5HIDAgSEFTX1JFRF9CTEFDS19TRVBBUkFUSU9OX1NVUFBPUlQgMCBIQVNfUkVfTEVWRUxfVElNSU5HX0dSQVBIX1NVUFBPUlQgMSBIQVNfUklTRUZBTExfREVMQVlfU1VQUE9SVCAxIEhBU19TSUdOQUxfUFJPQkVfU1VQUE9SVCAxIEhBU19TSUdOQUxfVEFQX1NVUFBPUlQgMSBIQVNfU0lNVUxBVE9SX1NVUFBPUlQgMCBIQVNfU1BMSVRfSU9fU1VQUE9SVCAxIEhBU19TUExJVF9MQ19TVVBQT1JUIDEgSEFTX1NUUklDVF9QUkVTRVJWQVRJT05fU1VQUE9SVCAxIEhBU19TWU5USF9GU1lOX05FVExJU1RfT1BUX1NVUFBPUlQgMSBIQVNfU1lOVEhfTkVUTElTVF9PUFRfUkVUSU1FX1NVUFBPUlQgMCBIQVNfU1lOVEhfTkVUTElTVF9PUFRfU1VQUE9SVCAxIEhBU19UQ0xfRklUVEVSX1NVUFBPUlQgMCBIQVNfVEVDSE5PTE9HWV9NSUdSQVRJT05fU1VQUE9SVCAwIEhBU19URU1QTEFURURfUkVHSVNURVJfUEFDS0lOR19TVVBQT1JUIDEgSEFTX1RJTUVfQk9SUk9XSU5HX1NVUFBPUlQgMCBIQVNfVElNSU5HX0RSSVZFTl9TWU5USEVTSVNfU1VQUE9SVCAxIEhBU19USU1JTkdfSU5GT19TVVBQT1JUIDEgSEFTX1RJTUlOR19PUEVSQVRJTkdfQ09ORElUSU9OUyAxIEhBU19USU1JTkdfU0lNVUxBVElPTl9TVVBQT1JUIDAgSEFTX1RJVEFOX0JBU0VEX01BQ19SRUdJU1RFUl9QQUNLRVJfU1VQUE9SVCAxIEhBU19VMkIyX1NVUFBPUlQgMCBIQVNfVVNFUl9ISUdIX1NQRUVEX0xPV19QT1dFUl9USUxFX1NVUFBPUlQgMCBIQVNfVVNFX0ZJVFRFUl9JTkZPX1NVUFBPUlQgMCBIQVNfVkNDUERfUE9XRVJfUkFJTCAxIEhBU19WRVJUSUNBTF9NSUdSQVRJT05fU1VQUE9SVCAxIEhBU19WSUVXRFJBV19TWU1CT0xfU1VQUE9SVCAwIEhBU19WSU9fU1VQUE9SVCAxIEhBU19WSVJUVUFMX0RFVklDRVMgMCBIQVNfV1lTSVdZR19ERkZFQVNfU1VQUE9SVCAxIEhBU19YSUJJU09fV1JJVEVSX1NVUFBPUlQgMSBJRlBfVVNFX0xFR0FDWV9JT19DSEVDS0VSIDEgSU5DUkVNRU5UQUxfREVTSUdOX1NVUFBPUlRTX0NPTVBBVElCTEVfQ09OU1RSQUlOVFMgMCBJTlNUQUxMRUQgMCBJTlRFUk5BTF9QT0ZfU1VQUE9SVF9FTkFCTEVEIDAgSU5URVJOQUxfVVNFX09OTFkgMCBJU1NVRV9NSUxJVEFSWV9URU1QRVJBVFVSRV9XQVJOSU5HIDAgSVNfQ09ORklHX1JPTSAwIElTX0RFRkFVTFRfRkFNSUxZIDAgSVNfSEFSRENPUFlfRkFNSUxZIDAgSVNfSEJHQV9QQUNLQUdFIDAgSVNfSElHSF9DVVJSRU5UX1BBUlQgMCBJU19MT1dfUE9XRVJfUEFSVCAwIElTX1NETV9PTkxZX1BBQ0tBR0UgMCBMVkRTX0lPIDEgTTEwS19NRU1PUlkgMSBNMTQ0S19NRU1PUlkgMCBNMjBLX01FTU9SWSAwIE00S19NRU1PUlkgMCBNNTEyX01FTU9SWSAwIE05S19NRU1PUlkgMCBNTEFCX01FTU9SWSAxIE1SQU1fTUVNT1JZIDAgTk9UX0xJU1RFRCAwIE5PVF9NSUdSQVRBQkxFIDAgTk9fRklUVEVSX0RFTEFZX0NBQ0hFX0dFTkVSQVRFRCAwIE5PX1BJTl9PVVQgMCBOT19QT0YgMCBOT19SUEVfU1VQUE9SVCAwIE5PX1NVUFBPUlRfRk9SX0xPR0lDTE9DS19DT05URU5UX0JBQ0tfQU5OT1RBVElPTiAxIE5PX1NVUFBPUlRfRk9SX1NUQV9DTE9DS19VTkNFUlRBSU5UWV9DSEVDSyAwIE5PX1REQ19TVVBQT1JUIDAgUE9TVEZJVF9CQUtfREFUQUJBU0VfRVhQT1JUX0VOQUJMRUQgMSBQT1NUTUFQX0JBS19EQVRBQkFTRV9FWFBPUlRfRU5BQkxFRCAxIFBST0dSQU1NRVJfU1VQUE9SVCAxIFBWQV9TVVBQT1JUU19PTkxZX1NVQlNFVF9PRl9BVE9NUyAwIFFGSVRfSU5fREVWRUxPUE1FTlQgMCBRTUFQX0lOX0RFVkVMT1BNRU5UIDAgUkFNX0xPR0lDQUxfTkFNRV9DSEVDS0lOR19JTl9DVVRfRU5BQkxFRCAxIFJFUE9SVFNfTUVUQVNUQUJJTElUWV9NVEJGIDEgUkVRVUlSRVNfSU5TVEFMTEFUSU9OX1BBVENIIDAgUkVRVUlSRVNfTElTVF9PRl9URU1QRVJBVFVSRV9BTkRfVk9MVEFHRV9PUEVSQVRJTkdfQ09ORElUSU9OUyAxIFJFU0VSVkVTX1NJR05BTF9QUk9CRV9QSU5TIDAgUkVTT0xWRV9NQVhfRkFOT1VUX0VBUkxZIDEgUkVTT0xWRV9NQVhfRkFOT1VUX0xBVEUgMCBSRVNQRUNUU19GSVhFRF9TSVpFRF9MT0NLRURfTE9DQVRJT05fTE9HSUNMT0NLIDEgUkVTVFJJQ1RFRF9VU0VSX1NFTEVDVElPTiAwIFJJU0VGQUxMX1NVUFBPUlRfSVNfSElEREVOIDAgU0hPV19ISURERU5fRkFNSUxZX0lOX1BST0dSQU1NRVIgMCBTVFJJQ1RfVElNSU5HX0RCX0NIRUNLUyAwIFNVUFBPUlRTX0FERElUSU9OQUxfT1BUSU9OU19GT1JfVU5VU0VEX0lPIDEgU1VQUE9SVFNfQ1JDIDEgU1VQUE9SVFNfRElGRkVSRU5USUFMX0FJT1RfQk9BUkRfVFJBQ0VfTU9ERUwgMSBTVVBQT1JUU19EU1BfQkFMQU5DSU5HX0JBQ0tfQU5OT1RBVElPTiAwIFNVUFBPUlRTX0dFTkVSQVRJT05fT0ZfRUFSTFlfUE9XRVJfRVNUSU1BVE9SX0ZJTEUgMSBTVVBQT1JUU19HTE9CQUxfU0lHTkFMX0JBQ0tfQU5OT1RBVElPTiAxIFNVUFBPUlRTX0hJUElfUkVUSU1JTkcgMCBTVVBQT1JUU19NQUNfQ0hBSU5fT1VUX0FEREVSIDEgU1VQUE9SVFNfUkFNX1BBQ0tJTkdfQkFDS19BTk5PVEFUSU9OIDAgU1VQUE9SVFNfUkVHX1BBQ0tJTkdfQkFDS19BTk5PVEFUSU9OIDAgU1VQUE9SVFNfU0lHTkFMUFJPQkVfUkVHSVNURVJfUElQRUxJTklORyAxIFNVUFBPUlRTX1NJTkdMRV9FTkRFRF9BSU9UX0JPQVJEX1RSQUNFX01PREVMIDEgU1VQUE9SVFNfVVNFUl9NQU5VQUxfTE9HSUNfRFVQTElDQVRJT04gMSBUTVZfUlVOX0NVU1RPTUlaQUJMRV9WSUVXRVIgMSBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFMgMSBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFNfT05fSU8gMCBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFNfT05fSU9CVUYgMSBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFNfT05fTENFTEwgMCBUTVZfUlVOX0lOVEVSTkFMX0RFVEFJTFNfT05fTFJBTSAwIFRSQU5TQ0VJVkVSXzNHX0JMT0NLIDEgVFJBTlNDRUlWRVJfNkdfQkxPQ0sgMSBVU0VTX0FDVl9GT1JfRkxFRCAxIFVTRVNfQURCX0ZPUl9CQUNLX0FOTk9UQVRJT04gMSBVU0VTX0FMVEVSQV9MTlNJTSAwIFVTRVNfQVNJQ19ST1VUSU5HX1BPV0VSX0NBTENVTEFUT1IgMCBVU0VTX0RBVEFfRFJJVkVOX1BMTF9DT01QVVRBVElPTl9VVElMIDEgVVNFU19ERVYgMSBVU0VTX0lDUF9GT1JfRUNPX0ZJVFRFUiAwIFVTRVNfTElCRVJUWV9USU1JTkcgMCBVU0VTX05FVFdPUktfUk9VVElOR19QT1dFUl9DQUxDVUxBVE9SIDAgVVNFU19QT1dFUl9TSUdOQUxfQUNUSVZJVElFUyAxIFVTRVNfUFZBRkFNMiAwIFVTRVNfVEhJUkRfR0VORVJBVElPTl9USU1JTkdfTU9ERUxTX1RJUyAxIFVTRVNfVTJCMl9USU1JTkdfTU9ERUxTIDAgVVNFU19YTUxfRk9STUFUX0ZPUl9FTUlGX1BJTl9NQVBfRklMRSAwIFVTRV9BRFZBTkNFRF9JT19QT1dFUl9CWV9ERUZBVUxUIDEgVVNFX0FEVkFOQ0VEX0lPX1RJTUlOR19CWV9ERUZBVUxUIDEgVVNFX0JBU0VfRkFNSUxZX0REQl9QQVRIIDAgVVNFX09DVF9BVVRPX0NBTElCUkFUSU9OIDEgVVNFX1JFTEFYX0lPX0FTU0lHTk1FTlRfUlVMRVMgMCBVU0VfUklTRUZBTExfT05MWSAxIFVTRV9TRVBBUkFURV9MSVNUX0ZPUl9URUNIX01JR1JBVElPTiAwIFVTRV9TSU5HTEVfQ09NUElMRVJfUEFTU19QTExfTUlGX0ZJTEVfV1JJVEVSIDEgVVNFX1RJVEFOX0lPX0JBU0VEX0lPX1JFR0lTVEVSX1BBQ0tFUl9VVElMIDEgVVNJTkdfMjhOTV9PUl9PTERFUl9USU1JTkdfTUVUSE9ET0xPR1kgMSBXWVNJV1lHX0JVU19XSURUSF9DSEVDS0lOR19JTl9DVVRfRU5BQkxFRCAx::ZGV2aWNlRmVhdHVyZXNTeXN0ZW1JbmZv" -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfTEVEcw==" -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME UElPIChQYXJhbGxlbCBJL08p -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9oYXNfaXJx::ZmFsc2U=::ZGVyaXZlZF9oYXNfaXJx" -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME bGFiNF9jcHVfanRhZ191YXJ0 -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME SlRBRyBVQVJU -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZW5hYmxlSW50ZXJhY3RpdmVPdXRwdXQ=::ZmFsc2U=::ZW5hYmxlSW50ZXJhY3RpdmVPdXRwdXQ=" -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_NAME "bGFiNF9jcHVfb25jaGlwX21lbW9yeQ==" -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_DISPLAY_NAME T24tQ2hpcCBNZW1vcnkgKFJBTSBvciBST00p -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_REPORT_HIERARCHY OFF -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_INTERNAL OFF -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_AUTHOR QWx0ZXJhIENvcnBvcmF0aW9u -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_VERSION "MTQuMA==" -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_COMPONENT_PARAMETER "ZGVyaXZlZF9pbml0X2ZpbGVfbmFtZQ==::bGFiNF9jcHVfb25jaGlwX21lbW9yeS5oZXg=::ZGVyaXZlZF9pbml0X2ZpbGVfbmFtZQ==" -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE lab4_cpu.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/altera_reset_controller.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/altera_reset_synchronizer.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SDC_FILE submodules/altera_reset_controller.sdc -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_irq_mapper.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_mm_interconnect_0.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/altera_merlin_arbitrator.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_rsp_mux_001.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_rsp_mux.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_rsp_demux_002.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_cmd_mux_002.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_cmd_mux.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_cmd_demux_001.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_cmd_demux.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_router_004.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_router_002.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_router_001.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/lab4_cpu_mm_interconnect_0_router.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/altera_avalon_sc_fifo.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/altera_merlin_slave_agent.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/altera_merlin_burst_uncompressor.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/altera_merlin_master_agent.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/altera_merlin_slave_translator.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SYSTEMVERILOG_FILE submodules/altera_merlin_master_translator.sv -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_transEnable.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_charSent.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_dataToMem.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SDC_FILE submodules/lab4_cpu_nios2_processor.sdc -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_nios2_processor.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_nios2_processor_jtag_debug_module_sysclk.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_nios2_processor_jtag_debug_module_tck.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_nios2_processor_jtag_debug_module_wrapper.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SOURCE_FILE submodules/lab4_cpu_nios2_processor_ociram_default_contents.mif -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_nios2_processor_oci_test_bench.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SOURCE_FILE submodules/lab4_cpu_nios2_processor_rf_ram_a.mif -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SOURCE_FILE submodules/lab4_cpu_nios2_processor_rf_ram_b.mif -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_nios2_processor_test_bench.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_LEDs.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_jtag_uart.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name SOURCE_FILE submodules/lab4_cpu_onchip_memory.hex -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE submodules/lab4_cpu_onchip_memory.v -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_reset_controller -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_reset_controller -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_irq_mapper -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_irq_mapper -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_mm_interconnect -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_multiplexer -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_rsp_mux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_multiplexer -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_rsp_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_demultiplexer -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_rsp_demux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_multiplexer -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_cmd_mux_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_multiplexer -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_cmd_mux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_demultiplexer -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_cmd_demux_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_demultiplexer -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_cmd_demux -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_router -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_router_004 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_router -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_router_002 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_router -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_router_001 -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_router -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_mm_interconnect_0_router -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_avalon_sc_fifo -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_avalon_sc_fifo -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_slave_agent -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_merlin_slave_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_master_agent -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_merlin_master_agent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_slave_translator -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_merlin_slave_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_merlin_master_translator -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity altera_merlin_master_translator -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_avalon_pio -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_transEnable -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_avalon_pio -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_charSent -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_avalon_pio -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_dataToMem -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_nios2_qsys -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_nios2_processor -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_avalon_pio -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_LEDs -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_avalon_jtag_uart -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_jtag_uart -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_NAME altera_avalon_onchip_memory2 -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_VERSION 14.0 -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name IP_TOOL_ENV Qsys -entity lab4_cpu_onchip_memory -qip lab4_cpu.qip -library lab4_cpu
+set_global_assignment -name VERILOG_FILE transmitEnable.v
+set_global_assignment -name VERILOG_FILE transmit.v
+set_global_assignment -name VERILOG_FILE startBit.v
+set_global_assignment -name VERILOG_FILE SIPO.v
+set_global_assignment -name VERILOG_FILE serialComCPU.v
+set_global_assignment -name VERILOG_FILE serialCom.v
+set_global_assignment -name VERILOG_FILE receive.v
+set_global_assignment -name VERILOG_FILE PISO.v
+set_global_assignment -name VERILOG_FILE onBoardSerialCom.v
+set_global_assignment -name VERILOG_FILE mux2.v
+set_global_assignment -name VERILOG_FILE DFlipFlop2.v
+set_global_assignment -name VERILOG_FILE DFlipFlop.v
+set_global_assignment -name VERILOG_FILE clock_divider.v
+set_global_assignment -name VERILOG_FILE clkCounter2.v
+set_global_assignment -name VERILOG_FILE clkCounter.v
+set_global_assignment -name VERILOG_FILE BSC.v
+set_global_assignment -name VERILOG_FILE BIC.v
+set_global_assignment -name PARTITION_NETLIST_TYPE POST_FIT -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

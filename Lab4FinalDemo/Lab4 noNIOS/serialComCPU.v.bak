@@ -1,0 +1,21 @@
+module serialComCPU (CLOCK_50, SW, LEDR);
+	input CLOCK_50;
+	input [9:9] SW;
+	output [7:0] LEDR;
+	wire [31:0] clk;
+	
+	clock_divider cd (CLOCK_50, clk);
+	
+    lab4_cpu u0 (
+        .clk_clk                                 (clk[4]),                                 //                              clk.clk
+        .reset_reset_n                           (SW[9]),                           //                            reset.reset_n
+        .leds_external_connection_export         (LEDR[7:0]),         //         leds_external_connection.export
+        .datatomem_external_connection_export    (dataToMem),    //    datatomem_external_connection.export
+        .datatosent_external_connection_export   (dataToSent),   //   datatosent_external_connection.export
+        .charsent_external_connection_export     (charSent),     //     charsent_external_connection.export
+        .charreceived_external_connection_export (charRecived), // charreceived_external_connection.export
+        .transenable_external_connection_export  (transEnable)   //  transenable_external_connection.export
+    );
+	
+	 serialCom serial (dataToSent, transEnable, clk[4], SW[9], dataToMem, charRecived, charSent);
+	 endmodule 

@@ -1,0 +1,98 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module startBit
+# 
+# Top level modules:
+# 	startBit
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module BSC
+# 
+# Top level modules:
+# 	BSC
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module BIC
+# 
+# Top level modules:
+# 	BIC
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clkCounter
+# 
+# Top level modules:
+# 	clkCounter
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module clkCounter2
+# 
+# Top level modules:
+# 	clkCounter2
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop
+# 
+# Top level modules:
+# 	DFlipFlop
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module DFlipFlop2
+# 
+# Top level modules:
+# 	DFlipFlop2
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module receive
+# -- Compiling module rtb
+# 
+# Top level modules:
+# 	rtb
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module SIPO
+# 
+# Top level modules:
+# 	SIPO
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module transmit
+# -- Compiling module ttb
+# 
+# Top level modules:
+# 	ttb
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module PISO
+# 
+# Top level modules:
+# 	PISO
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module serialCom
+# -- Compiling module stb
+# 
+# Top level modules:
+# 	stb
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module SIPOshiftRegister
+# 
+# Top level modules:
+# 	SIPOshiftRegister
+# vsim -lib work -voptargs=\"+acc\" -t 1ps stb 
+# Loading work.stb
+# Loading work.serialCom
+# Loading work.transmit
+# Loading work.clkCounter
+# Loading work.DFlipFlop
+# Loading work.clkCounter2
+# Loading work.PISO
+# Loading work.mux2
+# Loading work.DFlipFlop2
+# Loading work.BSC
+# Loading work.BIC
+# Loading work.receive
+# Loading work.SIPO
+# Loading work.startBit
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break in Module stb at ./serialCom.v line 36
+# Simulation Breakpoint: Break in Module stb at ./serialCom.v line 36
+# MACRO ./runlab.do PAUSED at line 39

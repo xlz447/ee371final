@@ -1,0 +1,9 @@
+module onBoardSerialCom (SW, KEY, LEDR, CLOCK_50);
+	input CLOCK_50;
+	input [9:0] SW;
+	input [0:0] KEY;
+	output [9:0] LEDR;
+	
+	
+	
+endmodule 

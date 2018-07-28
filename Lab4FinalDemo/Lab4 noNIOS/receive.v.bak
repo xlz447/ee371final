@@ -1,0 +1,62 @@
+module receive (dataIn, clk, rst, dataOut, charRecived);
+	input dataIn, clk, rst;
+	output [7:0] dataOut;
+	output charRecived;
+	wire [3:0] bscCount, bicCount;
+	wire en, SRclk, clk9600x16, clk9600, qBar, temp, bicClk;
+	
+	clkCounter cc1(clk, rst, clk9600x16);
+	clkCounter2 cc2(clk9600x16, rst, clk9600);
+	
+	SIPO sr0 (dataIn, SRclk, rst, dataOut);
+	startBit myStartBit (dataIn, clk9600, rst, en);
+	BSC myBSC(en, rst, clk9600x16, bscCount);
+	BIC myBIC(en, rst, bicClk, bicCount);
+	
+	assign bicClk = bscCount[0] & bscCount[3] & bscCount[2] & bscCount[1];
+	assign SRclk = ~bscCount[3] & bscCount[2] & bscCount[1] & bscCount[0];
+	assign charRecived = ~bicCount[3] & bicCount[2] & bicCount[1] & bicCount[0] & 
+								(bscCount[3] & ~bscCount[2] | bscCount[3] & ~bscCount[1] | bscCount[3] & ~bscCount[0]);
+endmodule 
+
+module rtb();
+	reg dataIn, clk, rst;
+	wire [7:0]dataOut;
+	wire charRecived;
+	
+	parameter period = 100;
+	
+	initial clk = 0;
+	always #(period /2) clk = ~ clk;
+	
+	receive rcv(dataIn, clk, rst, dataOut, charRecived);
+	
+	initial begin
+		rst = 1; dataIn = 1;
+		#(period*160) rst = 0; dataIn = 1;
+		#(period*160) dataIn = 1;
+		#(period*160) dataIn = 0;//start
+		#(period*160) dataIn = 1;//d  10110010
+		#(period*160) dataIn = 0;
+		#(period*160) dataIn = 1;
+		#(period*160) dataIn = 1;
+		#(period*160) dataIn = 0;
+		#(period*160) dataIn = 0;
+		#(period*160) dataIn = 1;
+		#(period*160) dataIn = 0;//d
+		#(period*160) dataIn = 0;//end
+		#(period*160) dataIn = 1;
+		#(period*160) dataIn = 1;
+		#(period*160) dataIn = 0;//s
+		#(period*160) dataIn = 0;//d  00001111
+		#(period*160) dataIn = 0;
+		#(period*160) dataIn = 0;
+		#(period*160) dataIn = 0;	
+		#(period*160) dataIn = 1;
+		#(period*160) dataIn = 1;
+		#(period*160) dataIn = 1;
+		#(period*160) dataIn = 1;//d
+		#(period*160) dataIn = 0;//s
+		$stop();
+	end
+endmodule

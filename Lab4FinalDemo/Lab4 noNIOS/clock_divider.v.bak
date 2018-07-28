@@ -1,0 +1,13 @@
+module clock_divider (clock, clk);
+	input clock;
+	output clk;
+	reg [31:0] divided_clocks;
+	
+	initial
+		divided_clocks = 0;
+		
+	always @(posedge clock)
+		divided_clocks = divided_clocks + 1;
+	assign clk = divided_clocks[24];
+		
+endmodule 

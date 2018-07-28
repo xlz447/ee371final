@@ -1,0 +1,869 @@
+|onBoardSerialCom
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+SW[4] => SW[4].IN1
+SW[5] => SW[5].IN1
+SW[6] => SW[6].IN1
+SW[7] => SW[7].IN1
+SW[8] => ~NO_FANOUT~
+SW[9] => SW[9].IN1
+KEY[0] => _.IN1
+KEY[0] => _.IN1
+KEY[0] => _.IN1
+LEDR[0] << serialCom:sc.port5
+LEDR[1] << serialCom:sc.port5
+LEDR[2] << serialCom:sc.port5
+LEDR[3] << serialCom:sc.port5
+LEDR[4] << serialCom:sc.port5
+LEDR[5] << serialCom:sc.port5
+LEDR[6] << serialCom:sc.port5
+LEDR[7] << serialCom:sc.port5
+LEDR[8] << serialCom:sc.port6
+LEDR[9] << serialCom:sc.port7
+CLOCK_50 => CLOCK_50.IN1
+
+
+|onBoardSerialCom|clock_divider:cd
+clock => divided_clocks[0]~reg0.CLK
+clock => divided_clocks[1]~reg0.CLK
+clock => divided_clocks[2]~reg0.CLK
+clock => divided_clocks[3]~reg0.CLK
+clock => divided_clocks[4]~reg0.CLK
+clock => divided_clocks[5]~reg0.CLK
+clock => divided_clocks[6]~reg0.CLK
+clock => divided_clocks[7]~reg0.CLK
+clock => divided_clocks[8]~reg0.CLK
+clock => divided_clocks[9]~reg0.CLK
+clock => divided_clocks[10]~reg0.CLK
+clock => divided_clocks[11]~reg0.CLK
+clock => divided_clocks[12]~reg0.CLK
+clock => divided_clocks[13]~reg0.CLK
+clock => divided_clocks[14]~reg0.CLK
+clock => divided_clocks[15]~reg0.CLK
+clock => divided_clocks[16]~reg0.CLK
+clock => divided_clocks[17]~reg0.CLK
+clock => divided_clocks[18]~reg0.CLK
+clock => divided_clocks[19]~reg0.CLK
+clock => divided_clocks[20]~reg0.CLK
+clock => divided_clocks[21]~reg0.CLK
+clock => divided_clocks[22]~reg0.CLK
+clock => divided_clocks[23]~reg0.CLK
+clock => divided_clocks[24]~reg0.CLK
+clock => divided_clocks[25]~reg0.CLK
+clock => divided_clocks[26]~reg0.CLK
+clock => divided_clocks[27]~reg0.CLK
+clock => divided_clocks[28]~reg0.CLK
+clock => divided_clocks[29]~reg0.CLK
+clock => divided_clocks[30]~reg0.CLK
+clock => divided_clocks[31]~reg0.CLK
+divided_clocks[0] <= divided_clocks[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[1] <= divided_clocks[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[2] <= divided_clocks[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[3] <= divided_clocks[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[4] <= divided_clocks[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[5] <= divided_clocks[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[6] <= divided_clocks[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[7] <= divided_clocks[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[8] <= divided_clocks[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[9] <= divided_clocks[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[10] <= divided_clocks[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[11] <= divided_clocks[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[12] <= divided_clocks[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[13] <= divided_clocks[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[14] <= divided_clocks[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[15] <= divided_clocks[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[16] <= divided_clocks[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[17] <= divided_clocks[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[18] <= divided_clocks[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[19] <= divided_clocks[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[20] <= divided_clocks[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[21] <= divided_clocks[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[22] <= divided_clocks[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[23] <= divided_clocks[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[24] <= divided_clocks[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[25] <= divided_clocks[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[26] <= divided_clocks[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[27] <= divided_clocks[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[28] <= divided_clocks[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[29] <= divided_clocks[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[30] <= divided_clocks[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+divided_clocks[31] <= divided_clocks[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|clkCounter:cc1
+clk => clk.IN4
+rst => rst.IN4
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|clkCounter:cc1|DFlipFlop:dff0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|clkCounter:cc1|DFlipFlop:dff1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|clkCounter:cc1|DFlipFlop:dff2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|clkCounter:cc1|DFlipFlop:dff3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|clkCounter2:cc2
+clk => clk.IN4
+rst => rst.IN4
+out <= out~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|clkCounter2:cc2|DFlipFlop:dff0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|clkCounter2:cc2|DFlipFlop:dff1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|clkCounter2:cc2|DFlipFlop:dff2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|clkCounter2:cc2|DFlipFlop:dff3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc
+dataToSent[0] => dataToSent[0].IN1
+dataToSent[1] => dataToSent[1].IN1
+dataToSent[2] => dataToSent[2].IN1
+dataToSent[3] => dataToSent[3].IN1
+dataToSent[4] => dataToSent[4].IN1
+dataToSent[5] => dataToSent[5].IN1
+dataToSent[6] => dataToSent[6].IN1
+dataToSent[7] => dataToSent[7].IN1
+transEnable => transEnable.IN1
+clk9600x16 => clk9600x16.IN2
+clk9600 => clk9600.IN2
+rst => rst.IN2
+dataToMem[0] <= receive:rcv.port4
+dataToMem[1] <= receive:rcv.port4
+dataToMem[2] <= receive:rcv.port4
+dataToMem[3] <= receive:rcv.port4
+dataToMem[4] <= receive:rcv.port4
+dataToMem[5] <= receive:rcv.port4
+dataToMem[6] <= receive:rcv.port4
+dataToMem[7] <= receive:rcv.port4
+charRecived <= receive:rcv.port5
+charSent <= transmit:tsmt.port6
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt
+dataIn[0] => dataIn[0].IN2
+dataIn[1] => dataIn[1].IN2
+dataIn[2] => dataIn[2].IN2
+dataIn[3] => dataIn[3].IN2
+dataIn[4] => dataIn[4].IN2
+dataIn[5] => dataIn[5].IN2
+dataIn[6] => dataIn[6].IN2
+dataIn[7] => dataIn[7].IN2
+transEnable => transEnable.IN1
+clk9600x16 => clk9600x16.IN2
+clk9600 => clk9600.IN1
+rst => rst.IN12
+dataOut <= PISO:sr1.port4
+charSent <= charSent.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|DFlipFlop:ff7
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|DFlipFlop:ff6
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|DFlipFlop:ff5
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|DFlipFlop:ff4
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|DFlipFlop:ff3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|DFlipFlop:ff2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|DFlipFlop:ff1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|DFlipFlop:ff0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|transmitEnable:te
+enableIn => always0.IN0
+enableIn => always0.IN0
+enableIn => Mux0.IN3
+enableIn => Mux1.IN2
+clk9600 => always0.IN1
+clk9600 => always0.IN1
+charSent => Mux1.IN3
+clk => clk.IN2
+reset => reset.IN2
+enableOut <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|transmitEnable:te|DFlipFlop:b0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|transmitEnable:te|DFlipFlop:b1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1
+dataIn[0] => dataIn[0].IN1
+dataIn[1] => dataIn[1].IN1
+dataIn[2] => dataIn[2].IN1
+dataIn[3] => dataIn[3].IN1
+dataIn[4] => dataIn[4].IN1
+dataIn[5] => dataIn[5].IN1
+dataIn[6] => dataIn[6].IN1
+dataIn[7] => dataIn[7].IN1
+load => load.IN10
+clk => clk.IN10
+rst => rst.IN10
+dataOut <= DFlipFlop2:ff0.port0
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m9
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m8
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m7
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m6
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m5
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m4
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m3
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m2
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m1
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|mux2:m0
+S => y1.IN0
+S => y0.IN0
+d0 => y0.IN1
+d1 => y1.IN1
+Y <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff9
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff8
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff7
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff6
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff5
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff4
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|PISO:sr1|DFlipFlop2:ff0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.PRESET
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BSC:myBSC
+en => comb.IN0
+en => comb.IN0
+en => comb.IN0
+en => comb.IN0
+rst => comb.IN1
+rst => comb.IN1
+rst => comb.IN1
+rst => comb.IN1
+clk => clk.IN4
+out[0] <= DFlipFlop:b0.q
+out[1] <= DFlipFlop:b1.q
+out[2] <= DFlipFlop:b2.q
+out[3] <= DFlipFlop:b3.q
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BSC:myBSC|DFlipFlop:b0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BSC:myBSC|DFlipFlop:b1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BSC:myBSC|DFlipFlop:b2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BSC:myBSC|DFlipFlop:b3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BIC:myBIC
+en => comb.IN0
+en => comb.IN0
+en => comb.IN0
+en => comb.IN0
+rst => comb.IN1
+rst => comb.IN1
+rst => comb.IN1
+rst => comb.IN1
+clk => clk.IN4
+out[0] <= DFlipFlop:b0.q
+out[1] <= DFlipFlop:b1.q
+out[2] <= DFlipFlop:b2.q
+out[3] <= DFlipFlop:b3.q
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BIC:myBIC|DFlipFlop:b0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BIC:myBIC|DFlipFlop:b1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BIC:myBIC|DFlipFlop:b2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|transmit:tsmt|BIC:myBIC|DFlipFlop:b3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv
+dataIn => dataIn.IN2
+clk9600x16 => clk9600x16.IN1
+clk9600 => clk9600.IN1
+rst => rst.IN12
+dataToMem[0] <= DFlipFlop:ff0.port0
+dataToMem[1] <= DFlipFlop:ff1.port0
+dataToMem[2] <= DFlipFlop:ff2.port0
+dataToMem[3] <= DFlipFlop:ff3.port0
+dataToMem[4] <= DFlipFlop:ff4.port0
+dataToMem[5] <= DFlipFlop:ff5.port0
+dataToMem[6] <= DFlipFlop:ff6.port0
+dataToMem[7] <= DFlipFlop:ff7.port0
+charRecived <= charRecived.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|DFlipFlop:ff7
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|DFlipFlop:ff6
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|DFlipFlop:ff5
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|DFlipFlop:ff4
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|DFlipFlop:ff3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|DFlipFlop:ff2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|DFlipFlop:ff1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|DFlipFlop:ff0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|SIPO:sr0
+data => data.IN1
+clk => clk.IN8
+rst => rst.IN8
+dataOut[0] <= out[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= out[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= out[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= out[3].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[4] <= out[4].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[5] <= out[5].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[6] <= out[6].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[7] <= DFlipFlop:ff7.port0
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|SIPO:sr0|DFlipFlop:ff7
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|SIPO:sr0|DFlipFlop:ff6
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|SIPO:sr0|DFlipFlop:ff5
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|SIPO:sr0|DFlipFlop:ff4
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|SIPO:sr0|DFlipFlop:ff3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|SIPO:sr0|DFlipFlop:ff2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|SIPO:sr0|DFlipFlop:ff1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|SIPO:sr0|DFlipFlop:ff0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|startBit:myStartBit
+data => NS[0].DATAB
+clk => clk.IN4
+rst => rst.IN4
+en <= en$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|startBit:myStartBit|DFlipFlop:dff0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|startBit:myStartBit|DFlipFlop:dff1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|startBit:myStartBit|DFlipFlop:dff2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|startBit:myStartBit|DFlipFlop:dff3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BSC:myBSC
+en => comb.IN0
+en => comb.IN0
+en => comb.IN0
+en => comb.IN0
+rst => comb.IN1
+rst => comb.IN1
+rst => comb.IN1
+rst => comb.IN1
+clk => clk.IN4
+out[0] <= DFlipFlop:b0.q
+out[1] <= DFlipFlop:b1.q
+out[2] <= DFlipFlop:b2.q
+out[3] <= DFlipFlop:b3.q
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BSC:myBSC|DFlipFlop:b0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BSC:myBSC|DFlipFlop:b1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BSC:myBSC|DFlipFlop:b2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BSC:myBSC|DFlipFlop:b3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BIC:myBIC
+en => comb.IN0
+en => comb.IN0
+en => comb.IN0
+en => comb.IN0
+rst => comb.IN1
+rst => comb.IN1
+rst => comb.IN1
+rst => comb.IN1
+clk => clk.IN4
+out[0] <= DFlipFlop:b0.q
+out[1] <= DFlipFlop:b1.q
+out[2] <= DFlipFlop:b2.q
+out[3] <= DFlipFlop:b3.q
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BIC:myBIC|DFlipFlop:b0
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BIC:myBIC|DFlipFlop:b1
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BIC:myBIC|DFlipFlop:b2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
+|onBoardSerialCom|serialCom:sc|receive:rcv|BIC:myBIC|DFlipFlop:b3
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+qBar <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+D => q~reg0.DATAIN
+clk => q~reg0.CLK
+rst => q~reg0.ACLR
+
+
